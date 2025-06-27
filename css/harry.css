@@ -4,3 +4,31 @@ img{
     display: block;
     margin: 0 auto;
 }
+
+body{
+    background-color:black;
+}
+
+h1{
+    color:white;
+}
+
+h2{
+    color:white;
+}
+
+h3{
+    color:white;
+}
+
+p{
+    color:white;
+}
+
+li{
+    color:white
+}
+
+hr{
+    margin-right: 20px;
+}
