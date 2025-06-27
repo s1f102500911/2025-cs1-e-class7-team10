@@ -6,11 +6,19 @@ img{
 }
 
 body{
+    margin:0px;
+    padding:0px;
     background-color:black;
+    background-image: url("tuki.(15).jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover
 }
 
 h1{
-    color:white;
+    color:skyblue;
+    text-align: center;
+    font-style:italic;
 }
 
 h2{
