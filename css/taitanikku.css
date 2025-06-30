@@ -12,5 +12,10 @@ h2{
     color:rgb(49, 197, 19);
     font-family:serif
 }
-
+body{
+    background-color: rgb(26, 4, 45);
+}
+p{
+    color: aqua;
+}
 
