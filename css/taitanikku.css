@@ -9,13 +9,16 @@ img{
     height: auto;
 }
 h2{
-    color:rgb(49, 197, 19);
+    color:rgb(211, 15, 146);
     font-family:serif
 }
 body{
-    background-color: rgb(26, 4, 45);
+    background-color: rgb(19, 13, 79);
 }
 p{
+    color: aqua;
+}
+ul{
     color: aqua;
 }
 
