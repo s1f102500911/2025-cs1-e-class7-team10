@@ -9,16 +9,61 @@ img {
 
 h1{
     text-align: center;
+    color: darkblue;
+    font-family: 'Cinzel', serif;
+    font-size: 2.8rem; 
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+    margin-bottom: 30px;
 }
 
 body{
-    
+    background-color: gainsboro;
 }
 
 strong{
-    font-size: 20px;
+    font-size: 25px;
+    color: indianred;
+    font-style: oblique;
 }
 
 p{
 
 }
+
+.konan{
+        display: flex;
+        align-items: center;
+        gap: 24px; 
+        max-width: 1000px;
+        margin: 40px auto;
+        padding: 20px;
+}
+
+.konan p{
+    font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 13px;
+  margin-bottom: 30px;
+}
+
+li {
+  background-color: var(--card-bg);
+  padding: 15px 14px;
+  border-radius:8px;
+  font-weight: 300;
+  transition: background-color 0.3s;
+  background-color: darkblue;
+  font-weight: 900;
+  color: indianred;
+}
+
+li:hover {
+  background-color: rgba(255,255,255,0.12);
+}
+
