@@ -6,8 +6,10 @@ h1{
     text-shadow: 3px 3px 3px #bc6c6c;
 }
 img{
-    width: 300px;
-    height: auto;
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
 }
 h2{
     color:rgb(44, 15, 211);
@@ -25,5 +27,6 @@ ul{
     color: aqua;
     font-family: serif;
 }
+
 
 
