@@ -5,11 +5,19 @@ img{
     margin: 0 auto;
 }
 
+.harry{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding:20px;
+}
+
 body{
     margin:0px;
     padding:0px;
     background-color:black;
-    background-image: url("tuki.(15).jpg");
     background-attachment: fixed;
     background-position: center;
     background-size:cover
@@ -19,6 +27,7 @@ h1{
     color:skyblue;
     text-align: center;
     font-style:italic;
+    font-family: 'Yu Mincho', serif;
 }
 
 h2{
@@ -26,7 +35,8 @@ h2{
 }
 
 h3{
-    color:white;
+    color:yellow;
+    font-family: 'Yu Mincho' , serif;
 }
 
 p{
