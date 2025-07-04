@@ -1,24 +1,29 @@
 h1{
-    color:rgba(214, 105, 16, 0.726);
+    color:rgba(105, 53, 10, 0.726);
     text-align:center;
     text-decoration:underline;
-    font-family:serif
+    font-family:serif;
+    text-shadow: 3px 3px 3px #bc6c6c;
 }
 img{
     width: 300px;
     height: auto;
 }
 h2{
-    color:rgb(211, 15, 146);
-    font-family:serif
+    color:rgb(44, 15, 211);
+    font-family:serif;
+    text-shadow: 2px 2px 2px #dee4f0;
 }
 body{
-    background-color: rgb(19, 13, 79);
+    background: linear-gradient(to bottom, #ca041b, #111193);
 }
 p{
     color: aqua;
+    font-family:serif;
 }
 ul{
     color: aqua;
+    font-family: serif;
 }
+
 
