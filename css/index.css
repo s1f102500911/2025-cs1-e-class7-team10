@@ -1,4 +1,4 @@
-harry img{
+.harry img{
     width: 300px;
     height: auto;
     display: block;
@@ -30,9 +30,4 @@ harry img{
     list-style: none;
     padding: 0;
     gap: 20px;
-
-
 }
-
-
-
