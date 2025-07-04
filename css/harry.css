@@ -24,6 +24,7 @@ strong{
 .harry{
     font-size: 20px;
 }
+
 body{
     margin:0px;
     padding:0px;
@@ -31,6 +32,11 @@ body{
     background-attachment: fixed;
     background-position: center;
     background-size:cover;
+    background-image: url("tuki.jpg"); 
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: auto;
+    box-sizing: border-box;
 }
 
 h1{
