@@ -1,53 +1,33 @@
-body {
-  font-family: sans-serif;
-  background-color: #f6f6f6;
-  padding: 20px;
+harry img{
+    width: 300px;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
 
-h1 {
-  text-align: center;
-  color: #333;
-  margin-bottom: 40px;
+.konan img{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
 
-/* 横並びにする映画紹介リスト */
-.eiga {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
+.taitanic img{
+    width: 300px;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    margin-left: 20px;
+    float: right;    
 }
 
-/* 映画1つ分のブロック */
-.eiga div {
-  text-align: center;
-}
-
-/* 映画の画像 */
-.eiga img {
-  width: 150px;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  transition: transform 0.3s ease;
-}
-
-/* ホバー時に拡大 */
-.eiga img:hover {
-  transform: scale(1.05);
-}
-
-/* 映画タイトルのリンク */
-.eiga li {
-  list-style: none;
-  margin-top: 10px;
-}
-
-.eiga a {
-  text-decoration: none;
-  color: #0077cc;
-  font-weight: bold;
-}
-
-.eiga a:hover {
-  color: #005599;
+.eiga{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
 }
